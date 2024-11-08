@@ -1,0 +1,14 @@
+main {
+    background-color: #4D676A;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Jetbrains;
+}
+
+@font-face {
+    font-family: Jetbrains;
+    src: url(../assets/fonts/JetBrainsMono.zip);
+  }

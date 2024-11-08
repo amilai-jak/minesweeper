@@ -1,0 +1,36 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3E585B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header .header-container{
+    padding: 0 0.5rem;
+    max-width: 2000px;
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .start {
+    font-size: 30px;
+    text-decoration: none;
+    text-decoration: #fff;
+}
+
+.header-container .sigma {
+    font-size: 30px;
+}
+
+.header-container img {
+    max-width: 300px;
+    width: 100%;
+}
