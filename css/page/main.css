@@ -17,6 +17,8 @@ main .game-window {
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .game-window img {
@@ -33,4 +35,78 @@ main .game-text {
     max-width: 1350px;
     font-size: 24px;
     color: #fff;
+}
+
+
+main .hello_word {
+    font-size: 100px;
+    color: #fff;
+}
+
+main .Action {
+    font-size: 40px;
+    color: #fff;
+}
+
+.Fields {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Fields .Password,
+.Fields .Email {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 50%;
+}
+
+.Email input,
+.Password input {
+    padding: 5px;
+    width: 100%;
+    border: 2px solid;
+    border-color: #4D676A;
+    border-radius: 10px;
+    background-color: transparent;
+    height: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.login-button {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-button button {
+    width: 100%;
+    max-width: 100px;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #4D676A;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.login-button button:active {
+    border-color: #7fa8a4;
+    color: #999;
+    scale: .9;
+}
+
+.Email label,
+.Password label {
+    margin: 0 5px;
 }

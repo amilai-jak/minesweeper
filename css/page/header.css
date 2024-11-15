@@ -26,8 +26,11 @@ header .header-container{
     text-decoration: #fff;
 }
 
-.header-container .sigma {
+.header-container .Reg {
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .header-container img {

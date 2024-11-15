@@ -1,0 +1,16 @@
+footer {
+    background-color: #3E585B;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .footer-text {
+    font-size: 24px;
+    color: #ffff;
+    
+}
